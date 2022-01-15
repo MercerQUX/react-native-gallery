@@ -51,9 +51,11 @@ Creating components (about 3 hours)
 
 ## Project Structure
 
+<p>The entire implementation of the application is located in the folder <b>Bin</b>.</p>
+
 ```
 bin
- ┣ asset ### Fixed assets and сomponents that are often used in the site;
+ ┣ asset    ### Fixed assets and сomponents that are often used in the site;
  ┃ ┣ common
  ┃ ┃ ┗ Loader.tsx
  ┃ ┗ Rolling.gif
@@ -63,14 +65,14 @@ bin
  ┃ ┣ MainPage.tsx
  ┃ ┣ ScrollViewPhoto.tsx
  ┃ ┗ SinglePhotoBlock.tsx
- ┣ hooks ### Custom hooks
+ ┣ hooks    ### Custom hooks
  ┃ ┗ redux-use.ts
  ┣ models 
  ┃ ┣ IPhotoData.ts
  ┃ ┗ IRouteData.ts
  ┣ router
  ┃ ┗ Navigation.tsx
- ┣ service ### Axios API
+ ┣ service      ### Axios API
  ┃ ┗ API.ts
  ┣ store
  ┃ ┣ selectors
@@ -80,5 +82,5 @@ bin
  ┃ ┣ thunks
  ┃ ┃ ┗ main-thunks.ts
  ┃ ┗ store.ts
- ┗ styleColor.ts ### All permanent colors used in the project
+ ┗ styleColor.ts    ### All permanent colors used in the project
 ```
