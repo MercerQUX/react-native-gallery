@@ -50,3 +50,35 @@ Creating components (about 3 hours)
 </p>
 
 ## Project Structure
+
+```
+bin
+ ┣ asset ### Fixed assets and сomponents that are often used in the site;
+ ┃ ┣ common
+ ┃ ┃ ┗ Loader.tsx
+ ┃ ┗ Rolling.gif
+ ┣ components 
+ ┃ ┣ FullPhoto.tsx
+ ┃ ┣ Header.tsx
+ ┃ ┣ MainPage.tsx
+ ┃ ┣ ScrollViewPhoto.tsx
+ ┃ ┗ SinglePhotoBlock.tsx
+ ┣ hooks ### Custom hooks
+ ┃ ┗ redux-use.ts
+ ┣ models 
+ ┃ ┣ IPhotoData.ts
+ ┃ ┗ IRouteData.ts
+ ┣ router
+ ┃ ┗ Navigation.tsx
+ ┣ service ### Axios API
+ ┃ ┗ API.ts
+ ┣ store
+ ┃ ┣ selectors
+ ┃ ┃ ┗ main-selector.ts
+ ┃ ┣ slicers
+ ┃ ┃ ┗ mainSlice.ts
+ ┃ ┣ thunks
+ ┃ ┃ ┗ main-thunks.ts
+ ┃ ┗ store.ts
+ ┗ styleColor.ts ### All permanent colors used in the project
+```
